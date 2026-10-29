@@ -278,7 +278,7 @@ header nav ul li:hover{
     margin-inline: auto;
     display: grid;
     grid-template-columns: auto auto;
-    width: 600px;
+    max-width: 600px;
     gap: 15px;
     margin-top: 20px;
 }
@@ -388,6 +388,8 @@ transition: all 0.3s ease-out;
 @media (max-width: 634px){
     .contactcontainer form {
         width: 100%;
+
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
         margin-inline: 5%;
     }
 }
