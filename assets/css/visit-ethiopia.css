@@ -344,6 +344,7 @@ form textarea {
 .footer-box a {
 text-decoration: none;
 color: hsl(0, 0%, 80%);
+font-size: 18px;
 transition: all 0.3s ease-out;
 }  
 
