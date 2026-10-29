@@ -384,3 +384,10 @@ transition: all 0.3s ease-out;
         padding-block: 20%;
     }
 }
+
+@media (max-width: 634px){
+    .contactcontainer form {
+        width: 100%;
+        margin-inline: 5%;
+    }
+}
